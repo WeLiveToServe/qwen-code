@@ -30,6 +30,7 @@ CLAUDE.md
 # OS metadata
 .DS_Store
 Thumbs.db
+*.msi
 
 # TypeScript build info files
 *.tsbuildinfo

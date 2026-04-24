@@ -18,6 +18,13 @@
 
 </div>
 
+## Local Harness Wrapper
+
+This local checkout keeps `qwen.cmd`, `qwenopen.py`, and `open_harness_common.py`
+only as compatibility shims. The canonical wrapper implementation lives in
+`C:\Users\keith\dev\cli-harness`; use `C:\Users\keith\dev\cli-harness\qwen.cmd`
+for new OpenRouter or local-GPU harness launches.
+
 ## 🎉 News
 
 - **2026-04-13**: Qwen OAuth free tier policy update: daily quota adjusted to 100 requests/day (from 1,000). The free tier will be discontinued on 2026-04-15. Consider using [OpenRouter](https://openrouter.ai), [Fireworks AI](https://app.fireworks.ai), or [Alibaba Cloud ModelStudio](https://modelstudio.console.alibabacloud.com/ap-southeast-1?tab=doc#/doc/?type=model&url=2840914_2&modelId=qwen3.6-plus) as alternatives.
